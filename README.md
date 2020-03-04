@@ -53,6 +53,8 @@ The applicable files in this repository for the user are on this project are:
 ## Results and Conclusion
 
 The accuracy metric was used to compare the models, as well as, the precision and recall metric. For accuracy, the SVM classification model performed the best followed closely in second place by the SVM model with n_components =10. For precision, the SVM model still outperformed the others. However, in recall performance, the best model was the SVM model with n_components=2. Although it is not a clear cut case, the evidence leads to the conclusion that the best performing model in this classification report is the SVM. The confusion matrix for the SVM model:
+
+
 0 | 6620 | 1814|
 1 | 2737 | 5784|
   |  0   |  1  |
